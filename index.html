@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Certificate | Blockchain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="admin.html" class="nav-link">Go to Admin Login</a>
+        </nav>
+        
+        <h1>🔍 Verify Certificate</h1>
+        <div class="card">
+            <p>Enter the Certificate ID to check authenticity on Blockchain.</p>
+            <input type="text" id="searchID" placeholder="Ex: CERT-A1B2C3">
+            <button class="verify-btn" onclick="verifyCertificate()">Verify Now</button>
+            
+            <div id="resultBox" class="hidden">
+                <div id="statusIndicator"></div>
+                <p id="resultDetails"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

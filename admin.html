@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel | Issue Certificate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="nav-link">← Back to Verification</a>
+        </nav>
+
+        <h1>🎓 Admin Dashboard</h1>
+        <div class="card">
+            <h2>Issue New Certificate</h2>
+            <label>Student Full Name</label>
+            <input type="text" id="studentName" placeholder="Enter Name">
+            
+            <label>Register Number</label>
+            <input type="text" id="regNo" placeholder="Enter Reg No">
+            
+            <label>GPA / Grade</label>
+            <input type="text" id="gpa" placeholder="Enter GPA">
+            
+            <button onclick="issueCertificate()">Upload to Blockchain</button>
+            <p id="issueStatus"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+nav { margin-bottom: 20px; text-align: right; }
+.nav-link { color: #4a148c; text-decoration: none; font-size: 14px; font-weight: bold; }
+
+h1 { color: #1a237e; font-size: 24px; text-align: center; margin-bottom: 30px; }
+h2 { font-size: 18px; color: #444; }
+
+label { font-size: 13px; color: #666; font-weight: bold; display: block; margin-top: 10px; }
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #1a237e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.verify-btn { background: #2e7d32; }
+
+#resultBox {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f1f8e9;
+    border-left: 6px solid #4caf50;
+}
+
+.hidden { display: none; }
+#issueStatus { margin-top: 15px; font-size: 14px; color: #2e7d32; word-wrap: break-word; }
